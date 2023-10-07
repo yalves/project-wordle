@@ -5,14 +5,14 @@ function GuessInput({ handleSubmit }) {
 
   return (
     <form
-      class="guess-input-wrapper"
+      className="guess-input-wrapper"
       onSubmit={(event) => {
         event.preventDefault();
         handleSubmit(guess);
         setGuess("");
       }}
     >
-      <label for="guess-input">Enter guess:</label>
+      <label htmlFor="guess-input">Enter guess:</label>
       <input
         id="guess-input"
         type="text"
