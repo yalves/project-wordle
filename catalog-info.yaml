@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: project-wordle
+  annotations:
+    github.com/project-slug: yalves/project-wordle
+    backstage.io/techdocs-ref: dir:.
+    jira/project-key: BS
+spec:
+  type: other
+  lifecycle: unknown
+  owner: yalves
