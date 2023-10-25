@@ -5,7 +5,7 @@ metadata:
   annotations:
     github.com/project-slug: yalves/project-wordle
     backstage.io/techdocs-ref: dir:.
-    jira/project-key: BS
+    jira/project-key: KAN
 spec:
   type: other
   lifecycle: unknown
